@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "FotosInsta 1.1.0 Released"
+title: "FotosInsta"
 date: "2017-04-20 02:12:52 +0900"
 author: leeyudok
 version: 1.0.0
-categories: [FotosInsta]
+categories: FotosInsta
 ---
 dkdkdi
 dkdkd
@@ -13,12 +13,19 @@ d
 d
 d
 dasdf
+
+[GooglePlay FotosInsta](https://play.google.com/store/apps/details?id=kr.co.diablodok.apps.fotosInsta)
+
+
+[FotosInsta Home](http://www.fotosinsta.com)
+
+
 d
 d
 d
 d
 
-[@dokebee0701](https://twitter.com/dokebee0701)
+[@FotosInsta0701](https://twitter.com/FotosInsta0701)
 
 
 Hey! After many months of hard work by Jekyll's contributors, we're excited
@@ -32,3 +39,41 @@ examples and for compiling this list):
 - Save and preview drafts before publishing ([example](https://gist.github.com/benbalter/5555992))
 
 Take a look at the [Upgrading][] page in the docs for more detailed information.
+
+FotosInsta
+
+FotosInsta
+
+FotosInsta
+
+FotosInsta
+FotosInsta
+
+FotosInsta
+FotosInsta
+
+FotosInsta
+FotosInsta
+
+FotosInsta
+FotosInsta
+
+FotosInsta
+FotosInsta
+
+FotosInsta
+FotosInsta
+
+FotosInsta
+
+FotosInsta
+          
+          FotosInsta
+          FotosInsta
+          
+          FotosInsta
+          FotosInsta
+          
+          FotosInsta
+          
+

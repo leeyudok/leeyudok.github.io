@@ -14,6 +14,13 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  i18n: {
+    defaultLocale: "ko",
+    locales: ["ko", "en"],
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),

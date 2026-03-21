@@ -11,6 +11,7 @@ tags:
 description:
   Some rules & recommendations for creating or adding new posts using AstroPaperr
   theme.
+lang: ko
 ---
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
@@ -112,7 +113,7 @@ tags:
   - some
   - example
   - tags
-ogImage: ../../assets/images/example.png # src/assets/images/example.png
+ogImage: ../../../assets/images/example.png # src/assets/images/example.png
 # ogImage: "https://example.org/remote-image.png" # remote URL
 description: This is the example description of the example post.
 canonicalURL: https://example.org/my-article-was-already-posted-here
@@ -206,7 +207,7 @@ Example: Suppose you want to display `example.jpg` whose path is `/src/assets/im
 
 <!-- OR -->
 
-![something](../../assets/images/example.jpg)
+![something](../../../assets/images/example.jpg)
 
 <!-- Using img tag or Image component won't work ❌ -->
 <img src="@/assets/images/example.jpg" alt="something">

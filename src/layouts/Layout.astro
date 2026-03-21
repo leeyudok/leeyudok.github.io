@@ -4,6 +4,8 @@ import { ClientRouter } from "astro:transitions";
 import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
 import { SITE } from "@/config";
 import "@/styles/global.css";
+import { getLangFromUrl } from "@/i18n/utils";
+import type { Locale } from "@/i18n/translations";
 
 type Props = {
   title?: string;
@@ -15,6 +17,7 @@ type Props = {
   pubDatetime?: Date;
   modDatetime?: Date | null;
   scrollSmooth?: boolean;
+  lang?: Locale;
 };
 
 const {
@@ -27,7 +30,10 @@ const {
   pubDatetime,
   modDatetime,
   scrollSmooth = false,
+  lang: langProp,
 } = Astro.props;
+
+const lang = langProp ?? getLangFromUrl(Astro.url);
 
 const socialImageURL = new URL(ogImage, Astro.url);
 
@@ -51,7 +57,7 @@ const structuredData = {
 <!doctype html>
 <html
   dir={SITE.dir}
-  lang=`${SITE.lang ?? "en"}`
+  lang={lang}
   class={`${scrollSmooth && "scroll-smooth"}`}
 >
   <head>

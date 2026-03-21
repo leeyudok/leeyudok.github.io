@@ -11,6 +11,7 @@ tags:
 description:
   Some of the well-crafted, predefined color schemes for AstroPaper blog
   theme.
+lang: ko
 ---
 
 I've crafted some predefined color schemes for this AstroPaper blog theme. You can replace these color schemes with the original ones.

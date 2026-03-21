@@ -3,7 +3,7 @@ export const SITE = {
   author: "leeyudok",
   profile: "https://github.com/leeyudok",
   desc: "뉴월드 인생2회차 그리고 ...",
-  title: "leeyudok blog",
+  title: "덕삼이이야기",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
